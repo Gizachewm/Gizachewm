@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/CSS?family=
+	Montserrat:400, 700);
+body {
+	color: darkgrey;
+	margin: 0;
+	font-family: "Lucida Grande";
+	text-align: justify;
+	}
+
+#header {
+	background: #44accf;
+	height: 50px;
+	width: 100%;
+	}
+
+#content {
+	background: #b7d84b;
+	width: 75%;
+	height: 500px;
+	float: left;
+	}
+
+#navigation {
+	background: #e2a741;
+	width: 25%;
+	height: 500px;
+	float: right;
+	}
+
+#header a {
+	color: white;
+	height: 150px;
+	text-decoration: none;
+
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+
+	}
+
+#header a:hover {
+	color: #222;
+	}
+
+#header-title {
+	display: block;
+	float: left;
+
+	font-size: 20px;
+	font-weight: bold;
+	}
+
+#header-nav {
+	display: block;
+	float: right;
+	margin-top: 0;
+	}
+
+#header-nav li {
+	display: inline;
+	padding-left: 20px;
+	}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	}
+
+#footer {
+	background: #44accf;
+	height: 50px;
+	float: left;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	clear: both;
+	}
+
+.column {
+	min-width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	}
+
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	}
+
+#footer p {
+	color: white;
+	}
+
+a {
+	color: #1abc9c;
+	text-decoration: none;
+	}
+a:active {
+	background: white;
+	color: black;
+	}
+
+.post, .about {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 60px 0;
+	}
+.post-author img {
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	}
+
+.post-author span {
+	margin-left: 16px;
+	}
+
+.post-date {
+	color: #D2D2D2;
+
+
+	font-size: 14px;
+	font-weight: bold;
+
+
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	}
+
+h1, h2, h3, h4 {
+	color: #333;
+	}
+
+p {
+	line-height: 1.5;
+	background-color: #44b3c2;
+	width: 150px;
+	height: 100px;
+	padding: 25px;
+	border: 25px solid #f1a94e;
+	margin: 25px 0px;
+	border: 2px solid #44b3c2;
+	margin-top: 10px;
+	margin-right:  20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	}
+
+p {
+	color: black;
+	font-size: 16px
+	}
+.about {
+	text-align: center;
+	}
+
+.post-author img,
+.post-author img {
+border-radius: 50%;
+	}
+
+.box {
+	background: #44accf;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	left: 20px;
+	border: 1px solid black;
+	}
+.blue { background: #44accf; }
+.green { background: #b7d84b; }
+.orange { background: #e2a741; }
+.pink { background: #ee3e64; }
+.floated { float: left; }
+.cleared { clear: both; }
+
+#box1 {
+visibility: hidden;
+}
+#box2 {
+display: none;
+box-sizing: border-box;
+}
+
+img {
+float: right;
+margin: 10px;
+}
+
+span {
+color: blue;
+}
+
+#topParagraph {
+font-size: 16px;
+}
+
+* {
+border: 1px solid black;
+box-sizing: border-box;
+}
+
+*.box {
+background: #44b3c2;
+}
+p span {
+font-weight: bold;
+}
